@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML template page.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page Title</title>
+    
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="template.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <iframe src="header.html" height="60" width="100%"></iframe>
+    </header>
+
+    <nav class="header-nav">
+        <ul>
+            <li>
+                <a href="#bookmark1" target="_parent">Bookmark 1</a>
+            </li>
+            <li>
+                <a href="#bookmark2" target="_parent">Bookmark 2</a>
+            </li>
+            <li>
+                <a href="#bookmark3" target="_parent">Bookmark 3</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Page Title</h1>
+        <article>
+            <p>Some text</p>
+        </article>
+    </section>
+
+    <footer>
+        <iframe class="footer" src="footer.html" width="100%"></iframe>
+    </footer>
+</body>
+
+</html>
